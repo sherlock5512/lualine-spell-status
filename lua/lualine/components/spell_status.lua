@@ -1,6 +1,6 @@
 --------------------------------------
 -- GetSpellStatus
--- @release 0.0.1
+-- @release 0.0.2
 -- @author Robert Morrison
 -- @copyright 2022 Robert Morrison (sherlock5512)
 -- @license MPL-2.0
@@ -9,12 +9,9 @@
 -- obtain one at http://mozilla.org/MPL/2.0/.
 --------------------------------------
 
--- @module sherlock5512.GetSpellStatus
-local Gsp = {}
-
 --- Get the current status of spell to add to lualine
 -- @return string
-Gsp.GetSpellStatus = function ()
+GetSpellStatus = function ()
 	local spell = vim.api.nvim_get_option_value('spell',{})
 	local lang = vim.api.nvim_get_option_value('spelllang',{})
 
@@ -29,4 +26,4 @@ Gsp.GetSpellStatus = function ()
 	return('')
 end
 
-return Gsp
+return GetSpellStatus
