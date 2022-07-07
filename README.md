@@ -17,11 +17,11 @@ an adventure into lua progamming more than anything else.
 ## Screenshots
 
 ### Spell diabled
-[!./Images/nolang.png](spell disabled)
+![spell disabled](./Images/nolang.png)
 ### Spell enabled (english)
-[!./Images/eng.png](spell enabled with language set to english)
+![spell enabled with language set to english](./Images/eng.png)
 ### Spell enabled (french)
-[!./Images/fr.png](spell enabled with language set to french)
+![spell enabled with language set to french](./Images/fr.png)
 ## Use
 
 Simply add the component `spell_status` to one of your lualine sections.
