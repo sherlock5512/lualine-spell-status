@@ -14,10 +14,14 @@ I used to use airline and after switching to lualine noticed that it was
 missing this feature. While it may not be the most exciting thing this was more
 an adventure into lua progamming more than anything else.
 
-## Screenshot 
+## Screenshots
 
-TODO:
-
+### Spell diabled
+[!./Images/nolang.png](spell disabled)
+### Spell enabled (english)
+[!./Images/eng.png](spell enabled with language set to english)
+### Spell enabled (french)
+[!./Images/fr.png](spell enabled with language set to french)
 ## Use
 
 Simply add the component `spell_status` to one of your lualine sections.
